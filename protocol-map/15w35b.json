@@ -1,0 +1,15 @@
+{
+    "type": {
+        "name": "protocol-map",
+        "version": 1
+    },
+    "content": {
+        "name": "15w35b",
+        "protocol": 63,
+        "base": 47,
+        "map": {
+            "clientbound": {},
+            "serverbound": {}
+        }
+    }
+}

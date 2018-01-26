@@ -1,0 +1,15 @@
+{
+    "type": {
+        "name": "protocol-map",
+        "version": 1
+    },
+    "content": {
+        "name": "1.9.1-pre3",
+        "protocol": 108,
+        "base": 107,
+        "map": {
+            "clientbound": {},
+            "serverbound": {}
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "type": {
+        "name": "protocol-map",
+        "version": 1
+    },
+    "content": {
+        "name": "16w32b",
+        "protocol": 302,
+        "base": 210,
+        "map": {
+            "clientbound": {},
+            "serverbound": {}
+        }
+    }
+}
