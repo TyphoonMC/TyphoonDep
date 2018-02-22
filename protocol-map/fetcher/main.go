@@ -1,12 +1,12 @@
 package main
 
 import (
-	"os"
+	"encoding/json"
 	"fmt"
 	"github.com/PuerkitoBio/goquery"
-	"strings"
+	"os"
 	"strconv"
-	"encoding/json"
+	"strings"
 )
 
 type Map struct {
@@ -15,19 +15,19 @@ type Map struct {
 }
 
 type Content struct {
-	Name string `json:"name"`
-	Protocol int `json:"protocol"`
-	Base int `json:"base"`
-	Map Map `json:"map"`
+	Name     string `json:"name"`
+	Protocol int    `json:"protocol"`
+	Base     int    `json:"base"`
+	Map      Map    `json:"map"`
 }
 
 type Type struct {
-	Name string `json:"name"`
-	Version int `json:"version"`
+	Name    string `json:"name"`
+	Version int    `json:"version"`
 }
 
 type Module struct {
-	Type Type `json:"type"`
+	Type    Type    `json:"type"`
 	Content Content `json:"content"`
 }
 
@@ -103,9 +103,9 @@ func main() {
 				panic(err)
 			}
 
-			if strings.Contains(html,"Play clientbound") {
+			if strings.Contains(html, "Play clientbound") {
 				clientbound = true
-			} else if strings.Contains(html,"Play serverbound") {
+			} else if strings.Contains(html, "Play serverbound") {
 				serverbound = true
 				clientbound = false
 			}
