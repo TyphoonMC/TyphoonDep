@@ -1,0 +1,15 @@
+{
+    "type": {
+        "name": "protocol-map",
+        "version": 1
+    },
+    "content": {
+        "name": "1.13.2",
+        "protocol": 404,
+        "base": 404,
+        "map": {
+            "clientbound": {},
+            "serverbound": {}
+        }
+    }
+}
