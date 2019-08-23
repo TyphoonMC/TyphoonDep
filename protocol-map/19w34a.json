@@ -1,0 +1,15 @@
+{
+    "type": {
+        "name": "protocol-map",
+        "version": 1
+    },
+    "content": {
+        "name": "19w34a",
+        "protocol": 550,
+        "base": 498,
+        "map": {
+            "clientbound": {},
+            "serverbound": {}
+        }
+    }
+}
