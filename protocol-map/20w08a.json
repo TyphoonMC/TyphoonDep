@@ -1,0 +1,15 @@
+{
+    "type": {
+        "name": "protocol-map",
+        "version": 1
+    },
+    "content": {
+        "name": "20w08a",
+        "protocol": 703,
+        "base": 578,
+        "map": {
+            "clientbound": {},
+            "serverbound": {}
+        }
+    }
+}
