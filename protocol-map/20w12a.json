@@ -1,0 +1,28 @@
+{
+    "type": {
+        "name": "protocol-map",
+        "version": 1
+    },
+    "content": {
+        "name": "20w12a",
+        "protocol": 707,
+        "base": 578,
+        "map": {
+            "clientbound": {
+                "0x43": "0x44",
+                "0x44": "0x45",
+                "0x45": "0x46",
+                "0x46": "0x47",
+                "0x47": "0x48",
+                "0x48": "0x49",
+                "0x49": "0x4A",
+                "0x4A": "0x4B",
+                "0x4B": "0x4C",
+                "0x4C": "0x4D",
+                "0x4D": "0x4E",
+                "0x4E": "0x43"
+            },
+            "serverbound": {}
+        }
+    }
+}
